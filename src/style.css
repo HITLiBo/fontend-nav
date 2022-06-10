@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.globalHeader {}
+
+.searchForm {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchForm>input {
+    width: 100%;
+    padding: 0 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    height: 40px;
+}
+
+.searchForm>button {
+    white-space: nowrap;
+    padding: 0 27px;
+    border: none;
+    border-radius: 6px;
+    background: #4662D9;
+    color: white;
+    font-size: 18px;
+}
+
+.globalMain {}
+
+.siteList {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.siteList>li {
+    margin-bottom: 15px;
+}
+
+.siteList .site {
+    border: 1px solid red;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding: 15px;
+}
+
+.siteList .site>.logo {
+    width: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.siteList .site>.link {
+    font-size: 20px;
+}
+
+.siteList .addButton {
+    border: 1px solid red;
+    width: 160px;
+}
