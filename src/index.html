@@ -1,56 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-    <title>font-end-navigation</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<body>
-    <header class="globalHeader">
-        <form action="https://www.baidu.com/s" class="searchForm">
-            <input name="wd" type="text">
-            <button type="submit">搜索</button>
-        </form>
-    </header>
-    <main class="globalMain">
-        <ul class="siteList">
-            <li>
-                <a href="https://www.acfun.cn">
-                    <div class="site">
-                        <div class="logo">A</div>
-                        <div class="link">acfun.com</div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.bilibili.com">
-                    <div class="site">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"
+            content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+        <title>font-end-navigation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-                        <div class="logo">B</div>
-                        <div class="link">bilibili.com</div>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <div class="site">
+    <body>
+        <header class="globalHeader">
+            <form action="https://www.baidu.com/s" class="searchForm">
+                <input name="wd" type="text">
+                <button type="submit">搜索</button>
+            </form>
+        </header>
+        <main class="globalMain">
+            <ul class="siteList">
+                <li class="addButton last">
+                    <img src="img/add.png" alt="">
+                    <div class="text">新增网站</div>
+                </li>
+            </ul>
+        </main>
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-                    <div class="logo">C</div>
-                    <div class="link">cilicili.com</div>
-                </div>
-            </li>
-            <li class="addButton last">
-                <div class="icon"></div>
-                <div class="text">新增网站</div>
-            </li>
-        </ul>
-    </main>
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </body>
 
-    <script src="main.js"></script>
-</body>
-
-</html>
+    </html>
